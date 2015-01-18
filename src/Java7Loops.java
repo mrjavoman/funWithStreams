@@ -7,9 +7,9 @@ public class Java7Loops {
 
     private List<Article> articles;
 
-    public Java7Loops (){
+    public Java7Loops (List<Article> articles){
 
-        articles = new ArrayList<Article>();
+        this.articles = articles;
     }
 
     public Article getFirstJavaArticle() {
